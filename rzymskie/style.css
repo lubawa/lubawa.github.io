@@ -1,0 +1,116 @@
+body
+{
+    background-color: teal;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Francois One', sans-serif;
+    user-select: none;
+    
+    
+
+}#losowanie
+{
+    width: 365px; 
+    height: 100px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    font-family: 'Francois One', sans-serif;
+    font-size: 70px;
+}
+ #ekran
+ {
+    width: 365px; 
+    height: 100px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    font-family: 'Francois One', sans-serif;
+    font-size: 70px; 
+    color: wheat;
+ }
+.klawisz
+{
+    width: 40px;
+    height: 40px;
+    border: wheat 1px solid;
+    border-radius: 15px;
+    float: left;
+    padding: 5px;
+    cursor: pointer;
+}
+.okienko
+{
+    width: 20px;
+    height: 20px;
+    float: left;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-right: 5px;
+    border:wheat 1px solid;
+}
+.dol
+{
+    width: 190px;
+    height: 40px; 
+    float: left; 
+    border: rgb(255, 222, 220) 1px solid;
+    margin-right: 20px;
+    padding: 5px;
+}
+
+.klawisz:hover {
+    background-color: wheat;
+}
+
+.okienko
+{
+    width: 20px;
+    height: 20px;
+    float: left;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-right: 5px;
+    border:wheat 1px solid;
+}
+.dol
+{
+    width: 190px;
+    height: 40px; 
+    float: left; 
+    border: rgb(255, 222, 220) 1px solid;
+    margin-right: 20px;
+    padding: 5px;
+}
+
+
+#usun {
+    cursor: pointer;
+}
+#usun:hover{
+    background-color: wheat;
+}
+
+#sprawdz {
+    cursor: pointer;
+}
+
+#sprawdz:hover {
+    background-color: wheat;
+}
+
+#reload {
+    cursor: pointer;
+}
+#reload:hover{
+    color: wheat;
+}
+
+
+table, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 600px;
+    font-size: 20px;
+    background-color: wheat;
+    color:teal;
+  }
+ }

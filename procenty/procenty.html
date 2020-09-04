@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <title>Potęgi</title>
+  <link rel="stylesheet" href="style.css">
+ 
+</head>
+<body>
+ <center><h1 style="font-size: 40px; color:rgb(0, 151, 221);text-shadow: -1px 0 chocolate, 0 1px chocolate,
+    1px 0 chocolate, 0 -1px chocolate;">Procent a ułamek</h1></center>
+<div id="container">
+    <div id="ulamki"></div>
+    <div style="clear: both; height: 50px;"></div>
+    <div id="komunikat" style="width: 660px; margin-left: auto; margin-right: auto;">
+        <div id="lewy">
+            <div id="zegar" class="zegar">zegar</div>
+            <div id="reload" class="zegar" style="height: 50px; padding-top: 0cm; font-size: 20px;"><span class="reset" onclick="location.reload()">od <br>nowa</span></div>
+        </div>
+        <div id="lewy1">
+            <div id="brawo" class="zegar">&#128512</div>
+            <div id="pudlo" class="zegar">&#128577</div>
+        </div>
+        <div id="srodek">
+        <div id="ulamek" class="pion" style=""></div>
+        <div id="rowne" class="pion" ></div>
+        <div id="procent" class="poziom" style=" margin-top: 25px;"></div>
+        <div id="sprawdz" class="zegar" style="margin-top: 25px; margin-left: 40px; font-size: 22px; color:white"  onclick="sprawdz()">sprawdź</div>
+        </div>
+    </div>
+    <div style="clear: both; height: 50px;"></div>
+    <div id="procenty" ></div>
+</div>
+<script src="procenty.js"></script>
+</body>

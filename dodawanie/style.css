@@ -1,0 +1,80 @@
+body{
+    background-color: rgb(85, 174, 233) ;
+}
+#calosc{
+    width: 1050px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#container_lewy{
+    width: 210px;
+    height: 500px;
+    float: left;
+    font-size: 20px;
+    margin-left: 20px;
+    background-color:khaki;
+    box-shadow: 5px 5px 20px #025036;
+    border-radius: 15px;
+    padding-left: 40px;
+}
+
+#container_prawy{
+    float: left;
+    width: 680px;
+    height:500px;
+    margin-left: 30px;
+    background-color:khaki;
+    box-shadow: 5px 5px 20px #025036;
+    border-radius: 15px;
+    padding-left: 40px;
+}#dzialanie
+{
+    width: 248px;
+    height: 80px;
+    font-size: 70px;
+    float: left;
+    margin-top: 30px;
+}
+#wynik
+{
+    width: 120px;
+    height: 80px;
+    font-size: 70px;
+    float: left;
+    margin-top: 30px;
+}
+
+#klawiatura {
+    width: 300px;
+    float: left;
+    margin-left: 10px;
+    
+}
+button{
+    width: 80px;
+    height: 40px;
+    margin-right: 10px;
+    margin-bottom: 7px;
+}
+#znaczki
+{
+    width: 300px;
+    height: 50px;
+    float: left;
+}
+#reload
+{
+    float: left;
+}
+#ekran{
+    float: left;
+}
+#wybor{
+    float: left;
+    margin-left: 170px;
+}
+h1 {
+    font-size: 40px;
+    color: rgb(12, 72, 238);
+}

@@ -1,0 +1,155 @@
+body
+{
+   
+    background-color: cornsilk;
+    font-size: 50px;
+    text-align: center;
+    
+
+}
+#container
+{
+    width: 690px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+#tytul
+{
+    width: 606px;
+    height: 50px;
+    font-size: 30px;
+    border:solid blue 1px;
+    clear:both;
+    background-color: tomato;
+    padding-top: 10px;
+    border-radius:15px;
+}
+#pytanie
+{
+    width: 150px;
+    height: 200px;
+    border: solid blue 1px;
+    border-radius:15px;
+    float: left; 
+    background-color: mediumaquamarine;
+    font-size: 30px;  
+}
+
+#nr_pytanie
+{
+    width: 150px;
+    font-size: 100px;
+    color: rgb(245, 239, 215);
+    text-align: center;
+}
+
+#mnozenie
+{
+    width:290px;
+    height: 160px;
+    border: solid 1px;
+    border-color: blue;
+    border-radius:15px;
+    float: left; 
+    font-size: 130px; 
+    color: green;
+    background-color: wheat;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    
+}
+
+#punkty
+{
+    
+    width: 150px;
+    height: 200px;
+    border: solid blue 1px;
+    border-radius:15px;
+    float: left; 
+    background-color: mediumaquamarine;
+    font-size: 30px;
+ 
+}
+#nr_punkty
+{
+    width: 150px;
+    font-size: 100px;
+    color: rgb(245, 239, 215);
+    text-align: center;
+    
+}
+
+#answ1
+{
+    width: 150px;
+    height: 80px;
+    border: solid blue 1px;
+    border-radius:15px;
+    clear:both;
+    float: left; 
+    font-size: 70px;
+    color: orangered;
+    background-color: peachpuff;
+}
+
+#answ2
+{
+    width: 150px;
+    height: 80px;
+    border: solid blue 1px;
+    border-radius:15px;
+    float: left;
+    font-size: 70px;
+    color: orangered;
+    background-color: paleturquoise;
+}
+
+#answ3
+{
+    width: 150px;
+    height: 80px;
+    border:solid blue 1px;
+    border-radius:15px;
+    float: left;
+    font-size: 70px;
+    color: orangered;
+    background-color: rgb(212, 252, 212) ;
+}
+
+#answ4
+{
+    width: 150px;
+    height: 80px;
+    border:solid blue 1px;
+    border-radius:15px;
+    float: left;
+    font-size: 70px;
+    color: orangered;
+    background-color: rgb(240, 216, 171)
+}
+
+#odp
+{
+    width: 606px;
+    height: 50px;
+    font-size: 25px;
+    border:solid blue 1px;
+    border-radius:15px;
+    clear:both;
+    background-color: tomato;
+    padding-top:10px;
+
+}
+#reload
+{
+    width: 606px;
+    height: 50px;
+    font-size: 40px;
+    border:solid blue 1px;
+    border-radius:15px;
+    background-color: yellowgreen;
+}

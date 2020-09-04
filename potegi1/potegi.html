@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <title>Potęgi</title>
+  <link href="https://fonts.googleapis.com/css?family=Caveat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<br>
+<span style="font-family: 'Caveat', cursive; font-size: 50px; text-align: center; color: rgb(18, 59, 18);">Kwadraty, sześciany...</span>
+<br><br>
+
+<div id="gora">
+  <div id="pytanie" class="pytanie" ></div>
+  <div id="czas" class="pytanie" style="margin-left: 5px; margin-right: 5px;"></div>
+  
+  <div id="punkty" class="pytanie"></div>
+</div>
+  <div style="clear: both;"></div>
+<div id="srodek">
+  <div id="wynik"></div> <span style="font-size:100px; color: rgb(18, 59, 18); float:left; margin-top: 100px;margin-left: 10px; margin-right: 10px;">= </span> <div id="potega"></div>
+</div>    
+  <div style="clear: both;"></div>
+
+<div id="podstawa">  </div>
+  <div style="clear: both; height: 10px;"></div>
+<div id="dol">
+  <div id ="usun" class ="pytanie" style="margin-right: 5px;" onclick="usun()">wyczyść</div>
+
+  <div id="wykladnik" ></div>
+
+  <div id="enter" class ="pytanie" style="margin-left: 5px;" onclick="sprawdz()">sprawdź</div>
+</div>
+  <div style="clear: both; height: 10px;"></div>
+
+  <div id="reload"><span class="reset" onclick="location.reload()">OD NOWA</span></div>
+
+
+   
+<script src="potegi.js"></script>
+
+
+ 
+</body>
+</html>

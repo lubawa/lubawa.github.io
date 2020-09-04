@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <title>Tabliczka dzielenia</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body background="embossed-diamond.png">
+
+  <br>
+
+  <div id = "container">
+   
+    <div id="tytul">TABLICZKA DZIELENIA</div>
+    <div id="pytanie">pytanie:
+      <div id = "nr_pytanie"></div>
+    </div>
+    <div id="mnozenie"></div>
+    <div id="punkty">punktów:
+      <div id="nr_punkty"></div>
+    </div>
+    <div id="answ1" onclick = "sprawdz(1)" ></div>
+    <div id="answ2" onclick = "sprawdz(2)"></div>
+    <div id="answ3" onclick = "sprawdz(3)"></div>
+    <div id="answ4" onclick = "sprawdz(4)"></div>
+    <div id="odp"></div>
+    <div id="reload"><span class="reset" onclick="location.reload()">OD NOWA</span></div>
+</div>
+
+  <script src="tabliczka1.js"></script>
+  <script>window.onload = odliczanie;</script>
+
+ 
+</body>
+</html>

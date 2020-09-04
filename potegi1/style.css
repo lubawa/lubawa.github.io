@@ -1,0 +1,97 @@
+body
+{
+    background-color: peru;
+    text-align: center;
+    user-select: none;
+    
+   
+    
+}
+    
+
+#wynik
+{
+    width: 350px;
+    height: 220px;
+    float:left;
+
+    font-size: 200px; 
+    font-family: 'Caveat', cursive;
+    color: rgb(18, 59, 18);
+
+}
+    
+.pytanie
+{
+    width: 200px;
+    height: 30px;
+    border: seagreen 1px solid;
+    float:left;
+    padding: 10px;
+    font-size: 30px;
+}
+#potega
+{
+    width: 350px;
+    height: 260px; 
+    float: left;
+    font-size: 200px;
+    font-family: 'Caveat', cursive;
+    text-align: left;
+    color: rgb(18, 59, 18);
+    margin-top: 20px;
+
+    
+}
+
+.podstawa
+{
+    width: 30px;
+    height: 30px;
+    border: seagreen 1px solid;
+    float:left;
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+    border-radius:15px;
+    cursor: pointer;
+   
+}
+.podstawa:hover {
+
+    background-color: burlywood;
+}
+
+#gora
+{
+    width: 676px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#srodek
+{
+    width: 800px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#podstawa
+{
+    width: 520px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#dol
+{
+    width: 460px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+#enter:hover {
+    background-color: burlywood;
+}
+
+#usun:hover {
+    background-color: burlywood;
+}

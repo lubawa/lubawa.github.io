@@ -1,0 +1,98 @@
+body{
+    background-color: rgb(255, 249, 41);;
+    user-select: none;
+   
+}
+#container{
+    width: 800px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 22px;
+    text-align: center;
+    
+
+}
+#ulamki{
+    width: 700px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#srodek{
+    width: 800px;
+    height: 100px;
+    color: rgb(0, 151, 221);
+
+    
+}
+.poziom{
+    width: 100px;
+    height: 50px;
+    float: left;
+    margin-left: 5px;
+    margin-bottom: 3px;
+    
+}
+
+
+.pion{
+    width: 50px;
+    height: 100px;
+    
+    float: left;
+    margin-left: 5px;
+}
+.zegar{
+    width: 100px;
+    height: 40px;
+    float: left;
+padding-top: 10px;
+    border: chocolate 2px solid; 
+    background-color: rgb(0, 151, 221);
+    margin-top: 5px;
+}
+
+
+#lewy{
+    width: 100px;
+    float: left;
+ 
+    color: white;
+    
+}
+#lewy1{
+    width: 100px;
+    float: left;
+    margin-left: 10px;
+    
+}
+
+#srodek{
+    width: 360px;
+    float: left;
+    margin-left: 45px;
+    font-size: 40px;
+    
+}
+
+#procenty{
+    width: 660px;
+    height: 110px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+img {
+    box-shadow: 5px 5px 20px #0a5814;
+}
+img:hover{
+    filter: brightness(95%);}
+
+#sprawdz:hover{
+        background-color: rgb(90, 227, 245);
+    }
+#reload:hover{
+    background-color: rgb(90, 227, 245);
+}

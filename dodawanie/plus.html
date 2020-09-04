@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <title>Dodawanie</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <br><br>
+<div id="calosc">
+
+<div id = "container_prawy">
+  <br><br><h1>Dodawanie liczb dwucyfrowych</h1><br>
+   <div id="znaczki"> </div>
+  <div id="wybor">
+      <select id="czas">
+        <option value="30">czas: 30s</option>
+        <option value="60">czas: 60s</option>
+        <option value="90">czas: 90s</option>
+      </select>
+
+      <select id="pytania">
+        <option value="5">pytań: 5</option>
+        <option value="10">pytań: 10</option>
+      </select>
+  </div>
+   <div style="clear: both;"></div>
+  <div id="ekran">
+    <div id="dzialanie"></div>
+    <div id="wynik"></div>
+    <div style="clear: both; height: 32px;"></div>
+      <button id="zegar" onclick="start()">start</button>
+  <button class="reset" onclick="location.reload()">od nowa</button>
+  </div> 
+  <div id="klawiatura"></div>
+
+</div>
+<div id="container_lewy"></div>
+
+
+
+
+</div>
+  <script src="plus.js"></script>
+
+ 
+</body>
+</html>
