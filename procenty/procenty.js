@@ -1,5 +1,5 @@
-let minuta = 0;
-let sekunda = 60;
+let minuta = 1;
+let sekunda = 30;
 let koniecczasu = 0;
 let koniec=0;
 
