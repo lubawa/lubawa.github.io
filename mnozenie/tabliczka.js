@@ -15,7 +15,7 @@ function odliczanie()
                 if([9].includes(punkty)) ocena = 'db';
                 if([10].includes(punkty)) ocena ='bdb';
                 console.log(koniec);
-                if(koniec==0) document.getElementById("odp").innerHTML="Koniec czasu, ocena: "+ocena;
+                if(koniec==0) document.getElementById("odp").innerHTML="Koniec czasu";
                 koniecczasu = 1;
                 
             }
@@ -145,10 +145,12 @@ function sprawdz(i)
             document.getElementById("answ2").setAttribute("onclick",";");
             document.getElementById("answ3").setAttribute("onclick",";");
             document.getElementById("answ4").setAttribute("onclick",";");
-            minuta=0;
-            sekunda=0;
+           
+            minuta = 0;
+            sekunda = 0;
             koniec=1;
-            document.getElementById("odp").innerHTML = "Ocena: "+ ocena;
+           
+         
         }
     }
 }
